@@ -5,14 +5,11 @@
 Clock::Clock( i_Microcontroller_Timestamp* microcontroller_timestamp )
 {
     this->Microcontroller_Timestamp = microcontroller_timestamp;
-    this->Clock_Settings = Clock_Settings_Class(this);
     this->clock_timestamp = 0;
     this->day = MONDAY;
     this->hour = 0; 
     this->minute = 0;
     this->second = 0;
-    this->Clock_Data = Clock_Data_Class(this);
-    this->Clock_Settings = Clock_Settings_Class(this);
 }
 /**************************************************************************************************/
 
@@ -22,20 +19,20 @@ Clock::Clock( i_Microcontroller_Timestamp* microcontroller_timestamp )
 void Clock::Tick( void )
 {
     uint32_t micro_timestamp = 0;
-    uint32_t ellapsed_time;
+    uint32_t elapsed_time;
 	static uint32_t time_carrier = 0;
 	
     /* Get microcotroller timestamp */
     this->Microcontroller_Timestamp->Get_Timestamp_Ms( &micro_timestamp );                             
 
     /* Compute ellapsed time since last call of Clock_Tick() */
-    ellapsed_time = time_carrier + micro_timestamp - this->clock_timestamp;
+    elapsed_time = time_carrier + micro_timestamp - this->clock_timestamp;
 
     /* If at least one second has ellapsed */
-    if( ellapsed_time >= 1000 )
+    if( elapsed_time >= 1000 )
     {
         
-		time_carrier = ellapsed_time -1000;
+		time_carrier = elapsed_time - 1000;
 		/* Update clock */
         Increment_Clock_Second();
         this->clock_timestamp = micro_timestamp;
@@ -54,12 +51,12 @@ void Clock::Tick( void )
 /**************************************************************************************************/
 i_Clock_Data* Clock::Get_Port__Clock_Data( void )
 {
-    return (i_Clock_Data*)&(this->Clock_Data);
+    return (i_Clock_Data*)(this);
 }
 /*------------------------------------------------------------------------------------------------*/
 i_Clock_Settings* Clock::Get_Port__Settings( void )
 {
-    return (i_Clock_Settings*)&(this->Clock_Settings);
+    return (i_Clock_Settings*)(this);
 }
 /**************************************************************************************************/
 
@@ -145,144 +142,144 @@ void Clock::Increment_Clock_Day( void )
 /**************************************************************************************************/
 /* Clock_Settings:i_Clock_Settings */
 /**************************************************************************************************/
-void Clock::Clock_Settings_Class::Increment_Second( void )
+void Clock::Increment_Second( void )
 {
-   if( this->parent->second < 59 )
+   if( this->second < 59 )
     {
-        this->parent->second++;
+        this->second++;
     }
     else
     {
-        this->parent->second = 0;
+        this->second = 0;
     }
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Settings_Class::Increment_Minute( void )
+void Clock::Increment_Minute( void )
 {
-    if( this->parent->minute < 59 )
+    if( this->minute < 59 )
     {
-        this->parent->minute++;
+        this->minute++;
     }
     else
     {
-        this->parent->minute = 0;
+        this->minute = 0;
     }
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Settings_Class::Increment_Hour( void )
+void Clock::Increment_Hour( void )
 {
-    if( this->parent->hour < 23 )
+    if( this->hour < 23 )
     {
-        this->parent->hour++;
+        this->hour++;
     }
     else
     {
-        this->parent->hour = 0;
+        this->hour = 0;
     }
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Settings_Class::Increment_Day( void )
+void Clock::Increment_Day( void )
 {
-    this->parent->Increment_Day();
+    this->Increment_Clock_Day();
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Settings_Class::Decrement_Second( void )
+void Clock::Decrement_Second( void )
 {
-   if( this->parent->second > 0 )
+   if( this->second > 0 )
     {
-        this->parent->second--;
+        this->second--;
     }
     else
     {
-        this->parent->second = 59;
+        this->second = 59;
     }
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Settings_Class::Decrement_Minute( void )
+void Clock::Decrement_Minute( void )
 {
-    if( this->parent->minute > 0 )
+    if( this->minute > 0 )
     {
-        this->parent->minute--;
+        this->minute--;
     }
     else
     {
-        this->parent->minute = 59;
+        this->minute = 59;
     }
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Settings_Class::Decrement_Hour( void )
+void Clock::Decrement_Hour( void )
 {
-    if( this->parent->hour > 0 )
+    if( this->hour > 0 )
     {
-        this->parent->hour--;
+        this->hour--;
     }
     else
     {
-        this->parent->hour = 23;
+        this->hour = 23;
     }
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Settings_Class::Decrement_Day( void )
+void Clock::Decrement_Day( void )
 {
-    if( this->parent->day == MONDAY )
+    if( this->day == MONDAY )
     {
-        this->parent->day = SUNDAY;
+        this->day = SUNDAY;
     }
-    else if( this->parent->day == TUESDAY )
+    else if( this->day == TUESDAY )
     {
-        this->parent->day = MONDAY;
+        this->day = MONDAY;
     }
-    else if( this->parent->day == WEDNESDAY )
+    else if( this->day == WEDNESDAY )
     {
-        this->parent->day = TUESDAY;
+        this->day = TUESDAY;
     }
-    else if( this->parent->day == THURSDAY )
+    else if( this->day == THURSDAY )
     {
-        this->parent->day = WEDNESDAY;
+        this->day = WEDNESDAY;
     }
-    else if( this->parent->day == FRIDAY )
+    else if( this->day == FRIDAY )
     {
-        this->parent->day = THURSDAY;
+        this->day = THURSDAY;
     }
-    else if( this->parent->day == SATURDAY )
+    else if( this->day == SATURDAY )
     {
-        this->parent->day = FRIDAY;
+        this->day = FRIDAY;
     }
 	else /* SUNDAY */
 	{
-        this->parent->day = SATURDAY;		
+        this->day = SATURDAY;		
 	}
 }
 /**************************************************************************************************/
 /* Clock_Data:i_Clock */
 /**************************************************************************************************/
-void Clock::Clock_Data_Class::Get_Date( 
+void Clock::Get_Date( 
     E_DAY* day, uint8_t* hour, uint8_t* minute, uint8_t* second )
 {
-    *day = this->parent->day;
-    *hour = this->parent->hour;
-    *minute = this->parent->minute;
-    *second = this->parent->second;
+    *day = this->day;
+    *hour = this->hour;
+    *minute = this->minute;
+    *second = this->second;
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Data_Class::Get_Day( E_DAY* day )
+void Clock::Get_Day( E_DAY* day )
 {
-    *day = this->parent->day;
+    *day = this->day;
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Data_Class::Get_Hour( uint8_t* hour)
+void Clock::Get_Hour( uint8_t* hour)
 {
-    *hour = this->parent->hour;
+    *hour = this->hour;
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Data_Class::Get_Minute( uint8_t* minute )
+void Clock::Get_Minute( uint8_t* minute )
 {
-    *minute = this->parent->minute;
+    *minute = this->minute;
 }
 /*------------------------------------------------------------------------------------------------*/
-void Clock::Clock_Data_Class::Get_Second( uint8_t* second )
+void Clock::Get_Second( uint8_t* second )
 {
-    *second = this->parent->second;
+    *second = this->second;
 }
 /**************************************************************************************************/
 
