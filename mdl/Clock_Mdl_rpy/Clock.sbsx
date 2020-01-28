@@ -25,10 +25,14 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.20.2020::9:34:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.20.2020::9:34:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.28.2020::10:15:8</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">This package gathers software elements allowing to measure time on an embedded system.</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">1.28.2020::10:15:8</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">1.20.2020::9:34:49</weakCGTime>
+			<weakCGTime type="a">1.28.2020::10:15:8</weakCGTime>
 			<strongCGTime type="a">10.26.2019::14:53:22</strongCGTime>
 			<_defaultComposite type="s">GUID 045d925c-1882-4db5-a454-d267de9d08d8</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -237,8 +241,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.20.2020::9:34:49</_modifiedTime>
-			<_lastModifiedTime type="a">1.20.2020::9:34:49</_lastModifiedTime>
+			<_modifiedTime type="a">1.28.2020::9:23:35</_modifiedTime>
+			<_lastModifiedTime type="a">1.28.2020::9:23:35</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1639,7 +1643,7 @@ It shall be cyclically triggered (at least twice as second to provide accurate d
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.17.2020::14:36:48</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.28.2020::9:4:53</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1650,9 +1654,9 @@ It shall be cyclically triggered (at least twice as second to provide accurate d
 				<_text type="a">i_Clock_Data defines operations allowing to access the data of a clock.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.17.2020::14:36:48</_modifiedTime>
+			<_modifiedTime type="a">1.28.2020::9:4:53</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">1.17.2020::14:36:48</weakCGTime>
+			<weakCGTime type="a">1.28.2020::9:4:53</weakCGTime>
 			<strongCGTime type="a">11.3.2019::8:24:1</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2203,7 +2207,7 @@ It shall be cyclically triggered (at least twice as second to provide accurate d
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.17.2020::14:37:12</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.28.2020::9:22:0</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -2214,9 +2218,9 @@ It shall be cyclically triggered (at least twice as second to provide accurate d
 				<_text type="a">i_Clock_Settings defines operations allowing to set a clock.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.17.2020::14:37:12</_modifiedTime>
+			<_modifiedTime type="a">1.28.2020::9:22:0</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">1.17.2020::14:37:12</weakCGTime>
+			<weakCGTime type="a">1.28.2020::9:22:0</weakCGTime>
 			<strongCGTime type="a">11.2.2019::16:3:7</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">

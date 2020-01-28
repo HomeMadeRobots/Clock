@@ -69,9 +69,9 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">Clock_Mdl</_name>
-			<_modifiedTimeWeak type="a">1.27.2020::10:22:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2020::10:22:25</_modifiedTime>
-			<_lastID type="a">3</_lastID>
+			<_modifiedTimeWeak type="a">1.28.2020::9:0:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.28.2020::9:0:56</_modifiedTime>
+			<_lastID type="a">4</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -156,6 +156,7 @@
 				<value>GUID 7d83f21c-6113-4392-aab2-7be2bbf4f7bf</value>
 				<value>GUID ec1f0fae-93f7-42ed-8b33-7aee07000014</value>
 				<value>GUID 4426ec85-5ae1-46ab-aedb-d3bd20915687</value>
+				<value>GUID 7277f8ec-64b6-495b-828b-a97b7822ad57</value>
 				<value>GUID 68578ae6-bbe7-4bac-8c93-ecd38c865f72</value>
 			</AggregatesList>
 		</IProject>
@@ -196,6 +197,10 @@
 		<ISubsystem type="e">
 			<fileName type="a">Clock_Internal_Design</fileName>
 			<_id type="a">GUID 4426ec85-5ae1-46ab-aedb-d3bd20915687</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Clock_Cpp_Implementation</fileName>
+			<_id type="a">GUID 7277f8ec-64b6-495b-828b-a97b7822ad57</_id>
 		</ISubsystem>
 		<IComponent type="e">
 			<fileName type="a">DefaultComponent</fileName>
