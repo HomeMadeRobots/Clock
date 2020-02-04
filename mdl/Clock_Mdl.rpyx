@@ -13,7 +13,39 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
+						<size type="a">3</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Activity_diagram</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Action</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">ShowAction</_Name>
+													<_Value type="a">Action</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Action,Description,Label</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowName</_Name>
+													<_Value type="a">Name</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Name,Label,None</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 						<IPropertySubject type="e">
 							<_Name type="a">Browser</_Name>
 							<Metaclasses type="c">
@@ -69,8 +101,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">Clock_Mdl</_name>
-			<_modifiedTimeWeak type="a">1.28.2020::9:0:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.28.2020::9:0:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.4.2020::12:38:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.4.2020::12:38:57</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
