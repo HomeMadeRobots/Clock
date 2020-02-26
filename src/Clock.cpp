@@ -2,14 +2,17 @@
 
 /**************************************************************************************************/
 /* Constructor */
-Clock::Clock( i_Microcontroller_Timestamp* microcontroller_timestamp )
+Clock::Clock( void )
 {
-    this->Microcontroller_Timestamp = microcontroller_timestamp;
     this->clock_timestamp = 0;
     this->day = MONDAY;
     this->hour = 0; 
     this->minute = 0;
     this->second = 0;
+}/**************************************************************************************************/
+void Clock::Connect_Ports( i_Microcontroller_Timestamp* microcontroller_timestamp )
+{
+	this->Microcontroller_Timestamp = microcontroller_timestamp;
 }
 /**************************************************************************************************/
 
@@ -23,7 +26,10 @@ void Clock::Tick( void )
 	static uint32_t time_carrier = 0;
 	
     /* Get microcotroller timestamp */
-    this->Microcontroller_Timestamp->Get_Timestamp_Ms( &micro_timestamp );                             
+	if( this->Microcontroller_Timestamp != 0 )
+	{
+		this->Microcontroller_Timestamp->Get_Timestamp_Ms( &micro_timestamp );
+	}		
 
     /* Compute ellapsed time since last call of Clock_Tick() */
     elapsed_time = time_carrier + micro_timestamp - this->clock_timestamp;

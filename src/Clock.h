@@ -27,8 +27,8 @@ class Clock : i_Clock_Data, i_Clock_Settings {
 public :
     /*--------------------------------------------------------------------------------------------*/
     /* Constructor */
-	Clock( void ) {}
-    Clock( i_Microcontroller_Timestamp* microcontroller_timestamp );
+	Clock( void );
+    void Connect_Ports( i_Microcontroller_Timestamp* microcontroller_timestamp );
 
     /*--------------------------------------------------------------------------------------------*/
     /* Component_Type_Operations */
