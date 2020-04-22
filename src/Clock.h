@@ -3,93 +3,62 @@
 
 
 /* Attributes */
-#include "stdint.h"
-#include "E_DAY.h"
+#include <stdint.h>
+#include "E_Day.h"
 
 
 /* Realized interfaces */
-#include "i_Clock_Data.h"
-#include "i_Clock_Settings.h"
+#include "Clock_Data.h"
+#include "Clock_Setting.h"
 
 
-/* Needed interfaces */
-#include "i_Microcontroller_Timestamp.h"
-
-
-/* Events */
-
+/*============================================================================*/
 /* Component_Type */
-/* The Clock Component_Type allows to measure the time.
-It is based on the micro-controller timestamp.
-It provides services to set its current data (day, hour, minute, second).
-It shall be cyclically triggered (at least twice as second to provide accurate data). */
-class Clock : i_Clock_Data, i_Clock_Settings {
-public :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Constructor */
-	Clock( void );
-    void Connect_Ports( i_Microcontroller_Timestamp* microcontroller_timestamp );
+/*============================================================================*/
+typedef struct {
+    uint32_t Clock_Timestamp;
+    uint32_t Time_Carrier;
+    E_Day Day;
+    uint8_t Hour; 
+    uint8_t Minute;
+    uint8_t Second;
+} Clock_Var;
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Component_Type_Operations */
-    void Tick(void);
+typedef struct {
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Event reception points accessors */
-    /* none */
+    /* Variable attributes */
+    Clock_Var* var_attr;
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Prodided port accessors */
-    i_Clock_Data* Get_Port__Clock_Data( void );
-    i_Clock_Settings* Get_Port__Settings( void );
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provided operations */
-    /* Clock_Data:i_Clock */
-    void Get_Date( E_DAY* day, uint8_t* hour, uint8_t* minute, uint8_t* second ) override;
-    void Get_Day( E_DAY* day ) override;
-    void Get_Hour( uint8_t* hour) override;
-    void Get_Minute( uint8_t* minute ) override;
-    void Get_Second( uint8_t* second ) override;
-    /* Clock_Settings:i_Clock_Settings */
-    void Increment_Day( void ) override;
-    void Increment_Hour( void ) override;
-    void Increment_Minute( void ) override;
-    void Increment_Second( void ) override;
-    void Decrement_Second( void ) override;
-    void Decrement_Minute( void ) override;
-    void Decrement_Hour( void ) override;
-    void Decrement_Day( void ) override;
+} Clock;
 
 
-private :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private attributes */
-    uint32_t clock_timestamp;
-    E_DAY day;
-    uint8_t hour; 
-    uint8_t minute;
-    uint8_t second;
+/*============================================================================*/
+/* Component_Operations */
+/*============================================================================*/
+void Clock__Tick( const Clock* Me );
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private methods */
-    void Increment_Clock_Second( void );
-    void Increment_Clock_Minute( void );
-    void Increment_Clock_Hour( void );
-    void Increment_Clock_Day( void );
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Requirer_Ports */
-    i_Microcontroller_Timestamp* Microcontroller_Timestamp;
+/*============================================================================*/
+/* Realized interfaces */
+/*============================================================================*/
+void Clock__Data__Get_Date(
+    const Clock* Me, 
+    E_Day* day,
+    uint8_t* hour,
+    uint8_t* minute,
+    uint8_t* second );
+void Clock__Data__Get_Day( const Clock* Me, E_Day* day );
+void Clock__Data__Get_Hour( const Clock* Me, uint8_t* hour );
+void Clock__Data__Get_Minute( const Clock* Me, uint8_t* minute );
+void Clock__Data__Get_Second( const Clock* Me, uint8_t* second );
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provider ports */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Sent events */
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Received events */
-};
+void Clock__Setting__Increment_Day( const Clock* Me );
+void Clock__Setting__Increment_Hour( const Clock* Me );
+void Clock__Setting__Increment_Minute( const Clock* Me );
+void Clock__Setting__Increment_Second( const Clock* Me );
+void Clock__Setting__Decrement_Day( const Clock* Me );
+void Clock__Setting__Decrement_Hour( const Clock* Me );
+void Clock__Setting__Decrement_Minute( const Clock* Me );
+void Clock__Setting__Decrement_Second( const Clock* Me );
 
 #endif
