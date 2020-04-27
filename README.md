@@ -27,4 +27,4 @@ This repo use the following repositories :
 
 ## Internal design
 
-See wiki.
+See [wiki](https://github.com/HomeMadeRobots/Clock/wiki/Clock-internal-design).
