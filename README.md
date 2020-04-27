@@ -2,15 +2,29 @@
 
 This repository defines software elements allowing to measure time on an embedded software.
 
-The model is done using [Software_Model_Toolset](https://github.com/HomeMadeRobots/Software_Model_Toolset).
+Modeled using the [Software_Model_Toolset](https://github.com/HomeMadeRobots/Software_Model_Toolset).
 
-The implementation (in C++) is done based on [Embedded_Software_Cpp_Framework](https://github.com/HomeMadeRobots/Embedded_Software_Cpp_Framework).
+Implemented using the [Embedded_C_Framework](https://github.com/HomeMadeRobots/Embedded_C_Framework).
+
+## Description
+
+The Clock Component_Type allows to measure the time.
+
+It is based on the micro-controller timestamp.
+
+It provides services to set its current data (day, hour, minute, second).
+
+It shall be cyclically triggered (at least twice as second to provide accurate data).
+
+## Needed repositories
+
+This repo use the following repositories :
+- [Embedded_C_Framework](https://github.com/HomeMadeRobots/Embedded_C_Framework) (*Timestamp.h*)
 
 ## Physical software architecture
-![Physical software architecture](/doc/CD_Clock.jpg "Physical software architecture")
+
+![Physical software architecture](doc/CD_Clock.jpg "Physical software architecture")
 
 ## Internal design
-See Wiki for details on internal design.
 
-## C++ implementation
-![Clock C++ Implementation](/doc/Clock_Cpp_Implementation.jpg "Clock C++ Implementation")
+See wiki.

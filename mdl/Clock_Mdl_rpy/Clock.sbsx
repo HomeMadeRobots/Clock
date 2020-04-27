@@ -25,14 +25,14 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.22.2020::16:56:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.27.2020::15:9:33</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">This package gathers software elements allowing to measure time on an embedded system.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.22.2020::16:56:57</_modifiedTime>
+			<_modifiedTime type="a">4.27.2020::15:9:33</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">4.22.2020::16:56:57</weakCGTime>
+			<weakCGTime type="a">4.27.2020::15:9:33</weakCGTime>
 			<strongCGTime type="a">10.26.2019::14:53:22</strongCGTime>
 			<_defaultComposite type="s">GUID 045d925c-1882-4db5-a454-d267de9d08d8</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -241,8 +241,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.22.2020::16:56:57</_modifiedTime>
-			<_lastModifiedTime type="a">4.22.2020::16:56:57</_lastModifiedTime>
+			<_modifiedTime type="a">4.27.2020::15:9:33</_modifiedTime>
+			<_lastModifiedTime type="a">4.27.2020::15:9:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -431,7 +431,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4140</m_drawBehavior>
-			<m_transform type="a">0.27101 0 0 0.217469 507.458 289.453 </m_transform>
+			<m_transform type="a">0.27101 0 0 0.217469 784.458 235.453 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -740,7 +740,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4140</m_drawBehavior>
-			<m_transform type="a">0.314447 0 0 0.163993 70.3711 238.046 </m_transform>
+			<m_transform type="a">0.314447 0 0 0.163993 347.371 184.046 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -865,7 +865,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4140</m_drawBehavior>
-			<m_transform type="a">0.314447 0 0 0.197861 70.3711 441.904 </m_transform>
+			<m_transform type="a">0.314447 0 0 0.197861 347.371 387.904 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -988,7 +988,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.158918 0 0 0.200493 504 66.6019 </m_transform>
+			<m_transform type="a">0.158918 0 0 0.200493 110 238.602 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1072,7 +1072,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.22.2020::9:22:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.27.2020::14:31:47</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1086,9 +1086,9 @@ It provides services to set its current data (day, hour, minute, second).%0D
 It shall be cyclically triggered (at least twice as second to provide accurate data).</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.22.2020::9:22:57</_modifiedTime>
+			<_modifiedTime type="a">4.27.2020::14:31:47</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">4.22.2020::9:22:57</weakCGTime>
+			<weakCGTime type="a">4.27.2020::14:31:47</weakCGTime>
 			<strongCGTime type="a">11.2.2019::15:48:31</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
