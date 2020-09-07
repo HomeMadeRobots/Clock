@@ -17,19 +17,19 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">SDD_Package</_hname>
-							<_hid type="a">GUID be799ef8-2ebb-4026-9b54-533e335785fb</_hid>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
+							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.22.2020::16:57:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.22.2020::16:57:51</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.7.2020::20:28:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.7.2020::20:28:0</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">4.22.2020::16:57:51</weakCGTime>
-			<strongCGTime type="a">4.22.2020::13:17:59</strongCGTime>
+			<weakCGTime type="a">9.7.2020::20:28:0</weakCGTime>
+			<strongCGTime type="a">9.3.2020::9:3:49</strongCGTime>
 			<_defaultComposite type="s">GUID 78cfb0fc-4f3f-4469-84d0-74a5a80a5154</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.28.2020::9:5:29</_configurationRelatedTime>
@@ -49,7 +49,7 @@
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">7</size>
+									<size type="a">8</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
@@ -160,6 +160,45 @@
 												<IProperty type="e">
 													<_Name type="a">Font.Size</_Name>
 													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">128,128,128</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Link</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">5</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Underline</_Name>
+													<_Value type="a">1</_Value>
 													<_Type type="a">Int</_Type>
 												</IProperty>
 												
@@ -398,17 +437,17 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Diagrams</_hsubsystem>
-							<_hname type="a">SDD_Diagram</_hname>
-							<_hid type="a">GUID cbed8f77-d13d-478e-9f8a-5db7d181741a</_hid>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">IMPL_Diagram</_hname>
+							<_hid type="a">GUID 0003d57b-a59c-428b-918e-200747cc7f74</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.22.2020::16:57:51</_modifiedTime>
-			<_lastModifiedTime type="a">4.22.2020::16:57:51</_lastModifiedTime>
+			<_modifiedTime type="a">9.7.2020::20:28:0</_modifiedTime>
+			<_lastModifiedTime type="a">9.7.2020::20:28:0</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -478,9 +517,9 @@
 				<value>GUID 8a14558e-b7af-4e23-9adc-472fd1b4b906</value>
 				<value>GUID fee8165d-6f39-4f27-bfb0-ba8d2154c045</value>
 				<value>GUID 8f81029d-f9b9-4ccf-a7e4-105c4ab958ff</value>
-				<value>GUID c8365a9a-8fb4-4ad6-bb82-a654fe5bee05</value>
-				<value>GUID c0e2dcf7-5077-42e9-b245-6fc73ad12783</value>
-				<value>GUID 21c6ced9-ad20-42ea-804d-9d93ed1d5921</value>
+				<value>GUID fdea8b49-6e13-4513-b30f-4ebaac4cb81d</value>
+				<value>GUID 57dbcb7a-8ba6-41cb-8e16-48c30cf94d05</value>
+				<value>GUID 54334f8a-23e9-4194-a15f-cb7c35d003c2</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -987,7 +1026,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">526350</m_drawBehavior>
-			<m_transform type="a">0.180359 0 0 0.0579323 360.639 276.94 </m_transform>
+			<m_transform type="a">0.180359 0 0 0.0766489 360.639 270.782 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1038,16 +1077,17 @@
 				</CGIText>
 			</m_multiplicity>
 			<AggregatesList type="e">
-				<value>GUID 1a04e1c7-9ce2-44c7-8fb2-eba7a63dc03d</value>
+				<value>GUID 0b358b57-6362-4642-bb9c-be66f4b34932</value>
 			</AggregatesList>
 		</CGIObjectInstance>
 		<CGICompartment type="e">
-			<_id type="a">GUID 1a04e1c7-9ce2-44c7-8fb2-eba7a63dc03d</_id>
+			<_id type="a">GUID 0b358b57-6362-4642-bb9c-be66f4b34932</_id>
 			<m_name type="a">Tag</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIInheritance type="e">
@@ -1081,7 +1121,7 @@
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID 7bb3b209-86ab-4779-b99d-77e7d2899f4e</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID c8365a9a-8fb4-4ad6-bb82-a654fe5bee05</m_pTarget>
+			<m_pTarget type="s">GUID fdea8b49-6e13-4513-b30f-4ebaac4cb81d</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -1108,7 +1148,7 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">540 329 </m_SourcePort>
-			<m_TargetPort type="a">212 1451 </m_TargetPort>
+			<m_TargetPort type="a">128 1451 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -1195,7 +1235,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">526350</m_drawBehavior>
-			<m_transform type="a">0.180359 0 0 0.0579323 677.639 276.94 </m_transform>
+			<m_transform type="a">0.180359 0 0 0.0766489 677.639 270.782 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1246,16 +1286,17 @@
 				</CGIText>
 			</m_multiplicity>
 			<AggregatesList type="e">
-				<value>GUID ad981119-5ae2-4b05-bd4b-e6542da19992</value>
+				<value>GUID f30593f7-4315-46e1-90b3-cddab88beb45</value>
 			</AggregatesList>
 		</CGIObjectInstance>
 		<CGICompartment type="e">
-			<_id type="a">GUID ad981119-5ae2-4b05-bd4b-e6542da19992</_id>
+			<_id type="a">GUID f30593f7-4315-46e1-90b3-cddab88beb45</_id>
 			<m_name type="a">Tag</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIInheritance type="e">
@@ -1289,7 +1330,7 @@
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pSource type="s">GUID 32dcf8d0-719b-4a4c-b599-d4639c0ba922</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID c8365a9a-8fb4-4ad6-bb82-a654fe5bee05</m_pTarget>
+			<m_pTarget type="s">GUID fdea8b49-6e13-4513-b30f-4ebaac4cb81d</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -1316,7 +1357,7 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">495 329 </m_SourcePort>
-			<m_TargetPort type="a">847 1451 </m_TargetPort>
+			<m_TargetPort type="a">916 1451 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -1403,7 +1444,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">526350</m_drawBehavior>
-			<m_transform type="a">0.180359 0 0 0.0579323 132.639 655.94 </m_transform>
+			<m_transform type="a">0.180359 0 0 0.0766489 132.639 649.782 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1454,16 +1495,17 @@
 				</CGIText>
 			</m_multiplicity>
 			<AggregatesList type="e">
-				<value>GUID cf0d6988-89e1-4dbf-b93a-383db2b22f80</value>
+				<value>GUID 1bc9729f-0f31-46ea-ba19-68185f8bb98f</value>
 			</AggregatesList>
 		</CGIObjectInstance>
 		<CGICompartment type="e">
-			<_id type="a">GUID cf0d6988-89e1-4dbf-b93a-383db2b22f80</_id>
+			<_id type="a">GUID 1bc9729f-0f31-46ea-ba19-68185f8bb98f</_id>
 			<m_name type="a">Tag</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIInheritance type="e">
@@ -1608,7 +1650,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">526350</m_drawBehavior>
-			<m_transform type="a">0.180359 0 0 0.0579321 525.638 655.94 </m_transform>
+			<m_transform type="a">0.180359 0 0 0.0766486 525.638 649.782 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1659,16 +1701,17 @@
 				</CGIText>
 			</m_multiplicity>
 			<AggregatesList type="e">
-				<value>GUID 1a32358f-c2b0-49ab-9416-e054a8e434ee</value>
+				<value>GUID 672d2324-3ced-497e-b388-beae91748a83</value>
 			</AggregatesList>
 		</CGIObjectInstance>
 		<CGICompartment type="e">
-			<_id type="a">GUID 1a32358f-c2b0-49ab-9416-e054a8e434ee</_id>
+			<_id type="a">GUID 672d2324-3ced-497e-b388-beae91748a83</_id>
 			<m_name type="a">Tag</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIInheritance type="e">
@@ -1813,7 +1856,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">526350</m_drawBehavior>
-			<m_transform type="a">0.180359 0 0 0.0579323 918.639 655.94 </m_transform>
+			<m_transform type="a">0.180359 0 0 0.0766489 918.639 649.782 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1864,16 +1907,17 @@
 				</CGIText>
 			</m_multiplicity>
 			<AggregatesList type="e">
-				<value>GUID d95b5d44-24e2-4f3a-87c5-8bc92fe4f5e1</value>
+				<value>GUID 267e94ae-3373-46f9-90f9-b37b71b3d7c0</value>
 			</AggregatesList>
 		</CGIObjectInstance>
 		<CGICompartment type="e">
-			<_id type="a">GUID d95b5d44-24e2-4f3a-87c5-8bc92fe4f5e1</_id>
+			<_id type="a">GUID 267e94ae-3373-46f9-90f9-b37b71b3d7c0</_id>
 			<m_name type="a">Tag</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">1</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIInheritance type="e">
@@ -1936,7 +1980,7 @@
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIClass type="e">
-			<_id type="a">GUID c8365a9a-8fb4-4ad6-bb82-a654fe5bee05</_id>
+			<_id type="a">GUID fdea8b49-6e13-4513-b30f-4ebaac4cb81d</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1952,9 +1996,8 @@
 											<IRPYRawContainer type="e">
 												<size type="a">2</size>
 												<IProperty type="e">
-													<_Name type="a">ShowLabels</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
+													<_Name type="a">AssociatedImageFile</_Name>
+													<_Type type="a">File</_Type>
 												</IProperty>
 												
 												<IProperty type="e">
@@ -1978,7 +2021,7 @@
 								<IRPYRawContainer type="e">
 									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
-										<_Name type="a">Component_Type</_Name>
+										<_Name type="a">Component_Design</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
 												<size type="a">3</size>
@@ -2017,16 +2060,16 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\Clock.sbsx</_hfilename>
-					<_hsubsystem type="a">Clock</_hsubsystem>
-					<_hname type="a">Clock</_hname>
-					<_hid type="a">GUID 056511d6-8ba3-49c3-b1da-08e5de52f39f</_hid>
+					<_hfilename type="a">.\Clock_Internal_Design.sbsx</_hfilename>
+					<_hsubsystem type="a">Clock_Internal_Design</_hsubsystem>
+					<_hname type="a">Clock_Internal_Design</_hname>
+					<_hid type="a">GUID 08d9b4ad-ff95-44d5-8468-b1e07c926988</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID c480266a-22d7-4ca0-9719-2854d73c339d</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Clock</m_str>
+					<m_str type="a">Clock_Internal_Design</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2042,7 +2085,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4110</m_drawBehavior>
-			<m_transform type="a">0.261568 0 0 0.147059 482.476 2.6181 </m_transform>
+			<m_transform type="a">0.261567 0 0 0.101604 482.477 73.5722 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2076,18 +2119,18 @@
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
-				<value>GUID d7bcca47-c022-40af-a35a-66fcfbdbf9d9</value>
+				<value>GUID 8b15f4d3-e280-4744-9656-4712ed7f10ce</value>
 			</AggregatesList>
 		</CGIClass>
 		<CGICompartment type="e">
-			<_id type="a">GUID d7bcca47-c022-40af-a35a-66fcfbdbf9d9</_id>
+			<_id type="a">GUID 8b15f4d3-e280-4744-9656-4712ed7f10ce</_id>
 			<m_name type="a">Description</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
 		</CGICompartment>
 		<CGIPortConnector type="e">
-			<_id type="a">GUID c0e2dcf7-5077-42e9-b245-6fc73ad12783</_id>
+			<_id type="a">GUID 57dbcb7a-8ba6-41cb-8e16-48c30cf94d05</_id>
 			<m_type type="a">57</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -2099,7 +2142,7 @@
 					<_hid type="a">GUID 658f8088-f5e1-4f59-bdc3-fe573914109b</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID c8365a9a-8fb4-4ad6-bb82-a654fe5bee05</m_pParent>
+			<m_pParent type="s">GUID fdea8b49-6e13-4513-b30f-4ebaac4cb81d</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Data</m_str>
@@ -2119,7 +2162,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">-1.27154e-005 -6.8 3.8231 -2.26164e-005 -147.706 837.784 </m_transform>
+			<m_transform type="a">-1.27154e-005 -9.84211 3.82311 -3.27342e-005 -148.191 935.001 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2183,7 +2226,7 @@
 			</m_requiredInterfaceLabel>
 		</CGIPortConnector>
 		<CGIPortConnector type="e">
-			<_id type="a">GUID 21c6ced9-ad20-42ea-804d-9d93ed1d5921</_id>
+			<_id type="a">GUID 54334f8a-23e9-4194-a15f-cb7c35d003c2</_id>
 			<m_type type="a">57</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -2195,7 +2238,7 @@
 					<_hid type="a">GUID 0748bda6-4e4b-4d3b-8450-91f7741016cf</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID c8365a9a-8fb4-4ad6-bb82-a654fe5bee05</m_pParent>
+			<m_pParent type="s">GUID fdea8b49-6e13-4513-b30f-4ebaac4cb81d</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Setting</m_str>
@@ -2215,7 +2258,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
-			<m_transform type="a">-1.27154e-005 -6.8 3.8231 -2.26164e-005 -147.707 1433.97 </m_transform>
+			<m_transform type="a">-1.27154e-005 -9.84211 3.82311 -3.27342e-005 -148.191 1525.53 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2282,9 +2325,9 @@
 			<_id type="a">GUID 78cfb0fc-4f3f-4469-84d0-74a5a80a5154</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">4.22.2020::13:17:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.22.2020::13:17:48</_modifiedTime>
-			<weakCGTime type="a">4.22.2020::13:17:48</weakCGTime>
+			<_modifiedTimeWeak type="a">9.7.2020::7:22:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.7.2020::7:22:59</_modifiedTime>
+			<weakCGTime type="a">9.7.2020::7:22:59</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2309,16 +2352,16 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">Implementation_File</_hname>
 							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.22.2020::13:17:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.22.2020::13:17:48</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.7.2020::7:22:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.7.2020::7:22:59</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2334,10 +2377,10 @@
 				<_id type="a">GUID 5225413e-90bb-4bef-abac-5148f977e48e</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">Clock_source</_name>
-				<_modifiedTimeWeak type="a">4.22.2020::13:17:48</_modifiedTimeWeak>
-				<_modifiedTime type="a">4.22.2020::13:17:48</_modifiedTime>
+				<_modifiedTimeWeak type="a">9.7.2020::7:22:59</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::7:22:59</_modifiedTime>
 				<_lastID type="a">1</_lastID>
-				<weakCGTime type="a">4.22.2020::13:17:48</weakCGTime>
+				<weakCGTime type="a">9.7.2020::7:22:59</weakCGTime>
 				<strongCGTime type="a">1.28.2020::9:5:49</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -2353,30 +2396,30 @@
 			<IDependency type="e">
 				<_id type="a">GUID 93164141-71be-4285-ac4c-cd2cd9975eb4</_id>
 				<_myState type="a">2048</_myState>
-				<_name type="a">Clock</_name>
+				<_name type="a">Clock_Internal_Design</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 								<_hname type="a">Implemented_Element</_hname>
 								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
 							</IHandle>
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.28.2020::9:19:11</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.28.2020::9:19:11</_modifiedTime>
+				<_modifiedTimeWeak type="a">9.7.2020::7:22:59</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::7:22:59</_modifiedTime>
 				<_dependsOn type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hfilename type="a">.\Clock.sbsx</_hfilename>
-						<_hsubsystem type="a">Clock</_hsubsystem>
-						<_hname type="a">Clock</_hname>
-						<_hid type="a">GUID 056511d6-8ba3-49c3-b1da-08e5de52f39f</_hid>
+						<_hfilename type="a">.\Clock_Internal_Design.sbsx</_hfilename>
+						<_hsubsystem type="a">Clock_Internal_Design</_hsubsystem>
+						<_hname type="a">Clock_Internal_Design</_hname>
+						<_hid type="a">GUID 08d9b4ad-ff95-44d5-8468-b1e07c926988</_hid>
 					</INObjectHandle>
 				</_dependsOn>
 				<_dependent type="r">
@@ -2417,8 +2460,8 @@
 				<_base type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">ITag</_hm2Class>
-						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 						<_hclass type="a">Implementation_File</_hclass>
 						<_hname type="a">File_Name</_hname>
 						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
@@ -2446,16 +2489,16 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">Implementation_File</_hname>
 							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.28.2020::9:19:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.28.2020::9:19:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">9.7.2020::7:22:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">9.7.2020::7:22:55</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2471,16 +2514,16 @@
 				<_id type="a">GUID 64c941fe-0490-42c5-bc99-27b8e94f4083</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">Clock_header</_name>
-				<_modifiedTimeWeak type="a">1.28.2020::9:19:17</_modifiedTimeWeak>
+				<_modifiedTimeWeak type="a">9.7.2020::7:22:55</_modifiedTimeWeak>
 				<_theMainDiagram type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IDiagram</_hm2Class>
 						<_hid type="a">GUID dbf2ea49-9b0a-4cbc-9da0-353d8dc20d1b</_hid>
 					</IHandle>
 				</_theMainDiagram>
-				<_modifiedTime type="a">1.28.2020::9:19:17</_modifiedTime>
+				<_modifiedTime type="a">9.7.2020::7:22:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
-				<weakCGTime type="a">1.28.2020::9:19:17</weakCGTime>
+				<weakCGTime type="a">9.7.2020::7:22:55</weakCGTime>
 				<strongCGTime type="a">1.28.2020::9:10:54</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -2496,30 +2539,30 @@
 			<IDependency type="e">
 				<_id type="a">GUID bb385117-14b5-4ad5-9387-3f3bed9b0a30</_id>
 				<_myState type="a">2048</_myState>
-				<_name type="a">Clock</_name>
+				<_name type="a">Clock_Internal_Design</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 								<_hname type="a">Implemented_Element</_hname>
 								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
 							</IHandle>
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.28.2020::9:19:17</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.28.2020::9:19:17</_modifiedTime>
+				<_modifiedTimeWeak type="a">9.7.2020::7:22:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">9.7.2020::7:22:55</_modifiedTime>
 				<_dependsOn type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hfilename type="a">.\Clock.sbsx</_hfilename>
-						<_hsubsystem type="a">Clock</_hsubsystem>
-						<_hname type="a">Clock</_hname>
-						<_hid type="a">GUID 056511d6-8ba3-49c3-b1da-08e5de52f39f</_hid>
+						<_hfilename type="a">.\Clock_Internal_Design.sbsx</_hfilename>
+						<_hsubsystem type="a">Clock_Internal_Design</_hsubsystem>
+						<_hname type="a">Clock_Internal_Design</_hname>
+						<_hid type="a">GUID 08d9b4ad-ff95-44d5-8468-b1e07c926988</_hid>
 					</INObjectHandle>
 				</_dependsOn>
 				<_dependent type="r">
@@ -2560,8 +2603,8 @@
 				<_base type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">ITag</_hm2Class>
-						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 						<_hclass type="a">Implementation_File</_hclass>
 						<_hname type="a">File_Name</_hname>
 						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
@@ -2589,8 +2632,8 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">Implementation_File</_hname>
 							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
 						</IHandle>
@@ -2646,8 +2689,8 @@
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 								<_hname type="a">Implemented_Element</_hname>
 								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
 							</IHandle>
@@ -2703,8 +2746,8 @@
 				<_base type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">ITag</_hm2Class>
-						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 						<_hclass type="a">Implementation_File</_hclass>
 						<_hname type="a">File_Name</_hname>
 						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
@@ -2732,8 +2775,8 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">Implementation_File</_hname>
 							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
 						</IHandle>
@@ -2789,8 +2832,8 @@
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 								<_hname type="a">Implemented_Element</_hname>
 								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
 							</IHandle>
@@ -2846,8 +2889,8 @@
 				<_base type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">ITag</_hm2Class>
-						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 						<_hclass type="a">Implementation_File</_hclass>
 						<_hname type="a">File_Name</_hname>
 						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>
@@ -2875,8 +2918,8 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 							<_hname type="a">Implementation_File</_hname>
 							<_hid type="a">GUID 76068085-5ce8-416c-81a0-105fa38a041d</_hid>
 						</IHandle>
@@ -2932,8 +2975,8 @@
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
-								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-								<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+								<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+								<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 								<_hname type="a">Implemented_Element</_hname>
 								<_hid type="a">GUID e1410ed5-8b64-43ee-a054-e77fd03a4de8</_hid>
 							</IHandle>
@@ -2989,8 +3032,8 @@
 				<_base type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">ITag</_hm2Class>
-						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Detailed_Design_Metamodel.sbsx</_hfilename>
-						<_hsubsystem type="a">Software_Detailed_Design_Metamodel::Stereotypes::Files</_hsubsystem>
+						<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Software_Implementation_Metamodel.sbsx</_hfilename>
+						<_hsubsystem type="a">Software_Implementation_Metamodel::Stereotypes</_hsubsystem>
 						<_hclass type="a">Implementation_File</_hclass>
 						<_hname type="a">File_Name</_hname>
 						<_hid type="a">GUID b0ede556-fe02-4ae9-ae12-b64dfa7c02f0</_hid>

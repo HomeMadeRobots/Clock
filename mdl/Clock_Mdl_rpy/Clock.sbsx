@@ -17,22 +17,22 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.27.2020::15:9:33</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">9.6.2020::20:40:14</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">This package gathers software elements allowing to measure time on an embedded system.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.27.2020::15:9:33</_modifiedTime>
+			<_modifiedTime type="a">9.6.2020::20:40:14</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">4.27.2020::15:9:33</weakCGTime>
+			<weakCGTime type="a">9.6.2020::20:40:14</weakCGTime>
 			<strongCGTime type="a">10.26.2019::14:53:22</strongCGTime>
 			<_defaultComposite type="s">GUID 045d925c-1882-4db5-a454-d267de9d08d8</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -241,8 +241,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.27.2020::15:9:33</_modifiedTime>
-			<_lastModifiedTime type="a">4.27.2020::15:9:33</_lastModifiedTime>
+			<_modifiedTime type="a">9.6.2020::20:40:18</_modifiedTime>
+			<_lastModifiedTime type="a">9.6.2020::20:40:18</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
